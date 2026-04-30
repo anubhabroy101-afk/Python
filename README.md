@@ -1,6 +1,7 @@
 # Python
 learning python
-Contents
+
+#Syllabus :-
 
 Chapter 1: Introduction to Python
 
