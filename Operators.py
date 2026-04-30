@@ -51,10 +51,24 @@ print("Floor Division Assignment: c //= d, c =", c // d)
 
 # Logical operators
 
+val1=True
+val2=False
+val3=True
+print("\nGiven val1 =", val1, ", val2 =", val2, "and val3 =", val3)
 print("\nLogical Operators:")
 # returns the second operand if both operands are true, otherwise returns the first operand
-print("Logical AND: a and b =", a and b)
+print("Logical AND: val1 and val2 =", val1 and val2)
 # returns the first operand if it is true, otherwise returns the second operand
-print("Logical OR: a or b =", a or b)
+print("Logical OR: val1 or val2 =", val1 or val2)
 # returns True if the operand is false, otherwise returns False
-print("Logical NOT: not a =", not a)
+print("Logical NOT: not val1 =", not val1)
+# returns True if both operands are true, otherwise returns False
+print("Logical AND: val1 and val3 =", val1 and val3)
+#a=10 and b=3
+val4=(a>b)
+val5=(a<b)
+val6=(a==b)or(a>b)
+print("val4 (a>b) =", val4, "and val5 (a<b) =", val5)
+print("val4 or val5 =", val4 or val5)
+print("val4 and val5 =", val4 and val5)
+print("val6 (a==b or a>b) =", val6)
