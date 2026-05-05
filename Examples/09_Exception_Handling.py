@@ -226,11 +226,11 @@ print("=== CUSTOM EXCEPTIONS ===\n")
 
 # Define custom exception
 class InsufficientBalanceError(Exception):
-    \"\"\"Raised when account balance is insufficient\"\"\"
+    """Raised when account balance is insufficient"""
     pass
 
 class InvalidAmountError(Exception):
-    \"\"\"Raised when amount is invalid\"\"\"
+    """Raised when amount is invalid"""
     pass
 
 # Using custom exceptions
@@ -397,7 +397,7 @@ print("Example 3: Retry logic:")
 import random
 
 def unreliable_network_call(url):
-    \"\"\"Simulates a network call that might fail\"\"\"
+    """Simulates a network call that might fail"""
     if random.random() < 0.5:
         raise ConnectionError("Network unreliable")
     return f"Data from {url}"

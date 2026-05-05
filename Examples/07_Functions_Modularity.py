@@ -101,7 +101,7 @@ flexible_function(1, 2, 3, 4, 5, name="Alice", age=25)
 print("=== FUNCTION DOCUMENTATION ===\n")
 
 def calculate_area(length, width):
-    \"""
+    """
     Calculate the area of a rectangle.
     
     Args:
@@ -110,7 +110,7 @@ def calculate_area(length, width):
     
     Returns:
         float: Area of rectangle
-    \"""
+    """
     return length * width
 
 print("Function docstring:")

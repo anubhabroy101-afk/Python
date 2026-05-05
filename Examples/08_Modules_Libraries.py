@@ -322,7 +322,7 @@ print("=== PRACTICAL EXAMPLE: GAME DICE SIMULATOR ===\n")
 import random
 
 def roll_dice(sides=6, num_dice=1):
-    \"\"\"Roll dice and return total\"\"\"
+    """Roll dice and return total"""
     rolls = [random.randint(1, sides) for _ in range(num_dice)]
     return rolls, sum(rolls)
 
