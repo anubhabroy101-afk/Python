@@ -7,7 +7,7 @@
 ## 📚 Table of Contents
 
 | Chapter | Topic | Topics |
-|---------|-------|--------|
+| -------- | ------- | -------- |
 | 1 | [Introduction to Python](#chapter-1) | 11 |
 | 2 | [Data Output and Input](#chapter-2) | 4 |
 | 3 | [Operators](#chapter-3) | 10 |
@@ -26,7 +26,7 @@
 
 ---
 
-## <a id="chapter-1"></a>📖 Chapter 1: Introduction to Python
+## 📖 Chapter 1: Introduction to Python {#chapter-1}
 
 Learn the fundamentals of Python programming language and its architecture.
 
@@ -42,7 +42,7 @@ Learn the fundamentals of Python programming language and its architecture.
 - 💬 Writing a Comment in Python **(1-19)**
 - ✏️ Writing a Simple Code in the Interactive Mode **(1-19)**
 
-## <a id="chapter-2"></a>🖨️ Chapter 2: Data Output and Input in Python
+## 🖨️ Chapter 2: Data Output and Input in Python {#chapter-2}
 
 Master input/output operations and text formatting.
 
@@ -51,7 +51,7 @@ Master input/output operations and text formatting.
 - 🎯 Escape Sequences **(2-6)**
 - 🎨 Text Formatting in Python **(2-7)**
 
-## <a id="chapter-3"></a>➕ Chapter 3: Operators in Python
+## ➕ Chapter 3: Operators in Python {#chapter-3}
 
 Explore all types of operators and their precedence.
 
@@ -66,7 +66,7 @@ Explore all types of operators and their precedence.
 - ≡ Relation between Equality and Identity Operators **(3-18)**
 - 🎯 Operator Priority of all Operators taken together (Highest to Lowest) **(3-19)**
 
-## <a id="chapter-4"></a>⚠️ Chapter 4: Errors in Programming
+## ⚠️ Chapter 4: Errors in Programming {#chapter-4}
 
 Understand error types and debugging techniques.
 
@@ -76,7 +76,7 @@ Understand error types and debugging techniques.
 - 🟡 Logical Error **(4-3)**
 - 🔍 Debugging Methods **(4-3)**
 
-## <a id="chapter-5"></a>🔄 Chapter 5: Flow of Control
+## 🔄 Chapter 5: Flow of Control {#chapter-5}
 
 Learn control flow structures: sequential, conditional, and iterative.
 
@@ -86,7 +86,7 @@ Learn control flow structures: sequential, conditional, and iterative.
 - 🔁 Iterative Flow **(5-4)**
 - 🎯 Implementing Conditional and Iterative Control and use of Indentation **(5-6)**
 
-## <a id="chapter-6"></a>🔀 Chapter 6: Conditional Statements and Branching
+## 🔀 Chapter 6: Conditional Statements and Branching {#chapter-6}
 
 Master decision-making in your code.
 
@@ -94,7 +94,7 @@ Master decision-making in your code.
 - 🔗 Use of `elif` statement **(6-6)**
 - 🧬 Use of Logical Operators `and`/`or` in Branching Control **(6-8)**
 
-## <a id="chapter-7"></a>🔁 Chapter 7: Iterative Statements and Looping
+## 🔁 Chapter 7: Iterative Statements and Looping {#chapter-7}
 
 Harness the power of loops for repetitive tasks.
 
@@ -107,7 +107,7 @@ Harness the power of loops for repetitive tasks.
 - 🔚 Use of `loop else` **(7-14)**
 - 📦 Nested Loops **(7-15)**
 
-## <a id="chapter-8"></a>🔤 Chapter 8: Working with String Type Data
+## 🔤 Chapter 8: Working with String Type Data {#chapter-8}
 
 Master string manipulation and operations.
 
@@ -122,7 +122,7 @@ Master string manipulation and operations.
 - 🛠️ Some Useful In-Built String Manipulation Functions and Methods **(8-5)**
 - 💼 Some Worked Out Programs on Strings **(8-9)**
 
-## <a id="chapter-9"></a>📋 Chapter 9: Working with List Type Data
+## 📋 Chapter 9: Working with List Type Data {#chapter-9}
 
 Learn to work with Python's most versatile data structure.
 
@@ -140,7 +140,7 @@ Learn to work with Python's most versatile data structure.
 - 🛠️ Some Useful In-Built List Manipulation Functions and Methods **(9-14)**
 - 💼 Some Worked Out Problems on Lists **(9-18)**
 
-## <a id="chapter-10"></a>🎁 Chapter 10: Working with Tuple Type Data
+## 🎁 Chapter 10: Working with Tuple Type Data {#chapter-10}
 
 Explore immutable sequences with tuples.
 
@@ -158,7 +158,7 @@ Explore immutable sequences with tuples.
 - 🔄 Concept of Tuple Packing and Tuple Unpacking **(10-6)**
 - 💼 Some Worked Out Problems on Tuple **(10-6)**
 
-## <a id="chapter-11"></a>🗂️ Chapter 11: Working with Dictionary Type Data
+## 🗂️ Chapter 11: Working with Dictionary Type Data {#chapter-11}
 
 Master key-value pair storage and retrieval.
 
@@ -173,7 +173,7 @@ Master key-value pair storage and retrieval.
 - 🛠️ Some Useful In-Built Dictionary Manipulation Functions and Methods **(11-6)**
 - 💼 Some Worked Out Problems on Dictionaries **(11-10)**
 
-## <a id="chapter-12"></a>📦 Chapter 12: Introduction to Python Modules
+## 📦 Chapter 12: Introduction to Python Modules {#chapter-12}
 
 Extend Python's capabilities with modules and libraries.
 
@@ -184,7 +184,7 @@ Extend Python's capabilities with modules and libraries.
 - 📊 Functions from the `statistics` module **(12-5)**
 - 💼 Some worked out Problems **(12-6)**
 
-## <a id="chapter-13"></a>🎯 Chapter 13: Functions
+## 🎯 Chapter 13: Functions {#chapter-13}
 
 Write reusable, modular code with functions.
 
@@ -201,7 +201,7 @@ Write reusable, modular code with functions.
 - λ Lambda Functions **(13-28)**
 - 💼 Some Worked Out Problems on Functions **(13-29)**
 
-## <a id="chapter-14"></a>🚨 Chapter 14: Exception Handling
+## 🚨 Chapter 14: Exception Handling {#chapter-14}
 
 Build robust programs with proper error handling.
 
@@ -210,7 +210,7 @@ Build robust programs with proper error handling.
 - 🏷️ Using Specific Error Names **(14-1)**
 - 🔚 Using keywords `else` and `finally` in an Error Checking Mechanism **(14-4)**
 
-## <a id="chapter-15"></a>🛒 Chapter 15: E-Commerce
+## 🛒 Chapter 15: E-Commerce {#chapter-15}
 
 Understanding electronic commerce and digital transactions.
 
@@ -230,4 +230,4 @@ Understanding electronic commerce and digital transactions.
 
 ---
 
-**Happy Learning! 🚀**
+Happy Learning! 🚀
