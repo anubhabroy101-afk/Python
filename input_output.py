@@ -8,7 +8,7 @@ print("Name:", name)
 print("Age:", age)
 print("Marks:", marks)
 
-## Practice
+# Practice
 # 1. WAP to take two numbers as input and print their sum.
 
 print("Welcome to the sum calculator!")
@@ -24,3 +24,11 @@ a = int(input("Enter the length of the side of the square: "))
 print("The area of the square is (using multiplication):", a * a)
 print("The area of the square is (using exponentiation):", a ** 2)
 print("The area of the square is (using math.pow):", math.pow(a, 2))
+
+# 3. wap to find the average of two numbers given as input.
+
+print("Welcome to the average calculator!")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+average = (num1 + num2) / 2
+print("The average of", num1, "and", num2, "is", average)
