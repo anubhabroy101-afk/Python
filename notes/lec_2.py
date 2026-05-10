@@ -1,7 +1,9 @@
-# Entry controlled loop
-    # 1 for loop
-    # 2 while loop
-# Exit controoled loop
+# Entry controlled loop:
+    # 1 for loop:
+        #Syntax:
+        # for variable in range(lower lim, upper lim, increment/decrement):
+    # 2 while loop:
+# Exit controoled loop:
     # 3 Do while loop
 
 def block1():  # WAP in Python to add all no in a range
