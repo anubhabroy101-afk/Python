@@ -7,6 +7,7 @@
     # 3 Do while loop
 
 def block1():  # WAP in Python to add all no in a range
+    print(1)
     a = int(input("Enter the lower limit : "))
     b = int(input("Enter the upper limit : "))
     s = 0
@@ -14,8 +15,8 @@ def block1():  # WAP in Python to add all no in a range
         s = s+i
     print("The sum of all numbers in the range is : ", s)
 
-
 def block2():  # WAP in Python to find the even no in a range
+    print(2)
     a = int(input("Enter the lower limit : "))
     b = int(input("Enter the upper limit : "))
     print("The even numbers in the range are : ")
@@ -23,14 +24,14 @@ def block2():  # WAP in Python to find the even no in a range
         if i % 2 == 0:
             print(i)
 
-
 def block3():  # WAP in Python to find all the even no between 1 to 100
+    print(3)
     print("The even numbers between 1 and 100 are : ")
     for i in range(2, 101, 2):
         print(i)
 
-
-def block4():  # WAP in Python to find all the prime no with in a range
+def block4():# WAP in Python to find all the prime no with in a range
+    print(4)
     a = int(input("Enter the lower limit : "))
     b = int(input("Enter the upper limit : "))
     print("The prime numbers in the range are : ")
@@ -42,16 +43,16 @@ def block4():  # WAP in Python to find all the prime no with in a range
         if (k == 1):
             print(i)
 
-
 def block5():  # WAP in Python to find the factorial of any no.
+    print(5)
     a = int(input("Enter the number : "))
     fac = 1
     for i in range(1, a+1):
         fac = fac*i
     print("The factorial of the number is : ", fac)
 
-
 def block6():  # WAP in Python to check weather a no is palindrome or not
+    print(6)
     a = int(input("Enter the number : "))
     pal = a
     rev = 0
@@ -64,9 +65,9 @@ def block6():  # WAP in Python to check weather a no is palindrome or not
     else:
         print("The number is not a palindrome")
 
-
 def block7():  # WAP in Python to check weather a no is armstrong or not
     # 153 = 1³ + 5³ + 3³
+    print(7)
     import math
     a = int(input("Enter the number : ")) ## Eg: 135, 370, 1637
     arm = a
@@ -82,6 +83,7 @@ def block7():  # WAP in Python to check weather a no is armstrong or not
 
 def block8():# WAP in Python to check if a no in krishnamurthy or not
     # 145 = 1! + 4! + 5!
+    print(8)
     import math
     a = int(input("Enter the number : ")) ## Eg: 145, 1, 2, 40585
     kri = a
@@ -98,6 +100,7 @@ def block8():# WAP in Python to check if a no in krishnamurthy or not
 def block9():
     #WAP in Python to calculate the following 
     # 1² + 2³ + 3⁴ +...+ n^(n+1)
+    print(9)
     n = int(input("Enter the number of terms: "))
     s = 0
     for i in range(1, n+1):
