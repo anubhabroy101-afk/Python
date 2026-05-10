@@ -65,7 +65,7 @@ def block6():  # WAP in Python to check weather a no is palindrome or not
 
 def block7():  # WAP in Python to check weather a no is armstrong or not
     import math
-    a = int(input("Enter the number : "))
+    a = int(input("Enter the number : ")) ## Eg: 135, 370, 1637
     arm = a
     s = 0
     while (a > 0):
