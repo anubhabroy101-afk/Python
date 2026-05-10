@@ -95,6 +95,15 @@ def block8():# WAP in Python to check if a no in krishnamurthy or not
     else:
         print("The number is not a krishnamurthy number")
 
+def block9():
+    #WAP in Python to calculate the following 
+    # 1² + 2³ + 3⁴ +...+ n^(n+1)
+    n = int(input("Enter the number of terms: "))
+    s = 0
+    for i in range(1, n+1):
+        s = s + (i ** (i+1))
+    print("The sum of the series is: ", s)
+
 if __name__ == "__main__":
-    block7()   # Run only this
+    block9()   # Run only this
     #block2()   # Run this also
