@@ -20,4 +20,4 @@ def block2():
         print("* " * i) # This will print "* " i times in each row
 
 if __name__ == "__main__":
-    block2()   # Run only this
+    block1()   # Run only this
