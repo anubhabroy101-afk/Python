@@ -31,5 +31,17 @@ def block4():
     else:
         print("The year is not a leap year")
 
+# WAP in Python to print signal post
+def block5():   
+    a=int(input("Enter the signal color : "))
+    if a==(red):
+        print("Stop")
+    elif (a==yellow):
+        print("Slow down")
+    elif (a==green):
+        print("Go ahead")
+    else:
+        print("Invalid input")
+
 if __name__ == "__main__":
     block1()   # Run only this
