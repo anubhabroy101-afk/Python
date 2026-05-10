@@ -66,6 +66,7 @@ def block6():  # WAP in Python to check weather a no is palindrome or not
 
 
 def block7():  # WAP in Python to check weather a no is armstrong or not
+    # 153 = 1³ + 5³ + 3³
     import math
     a = int(input("Enter the number : ")) ## Eg: 135, 370, 1637
     arm = a
@@ -78,6 +79,21 @@ def block7():  # WAP in Python to check weather a no is armstrong or not
         print("The number is an armstrong number ✅")
     else:
         print("The number is not an armstrong number")
+
+def block8():# WAP in Python to check if a no in krishnamurthy or not
+    # 145 = 1! + 4! + 5!
+    import math
+    a = int(input("Enter the number : ")) ## Eg: 145, 1, 2, 40585
+    kri = a
+    s = 0
+    while (a > 0):
+        d = a % 10
+        s = s+math.factorial(d)
+        a = a//10  # if we use "/" will give float value
+    if(kri==s):
+        print("The number is a krishnamurthy number ✅")
+    else:
+        print("The number is not a krishnamurthy number")
 
 if __name__ == "__main__":
     block7()   # Run only this
