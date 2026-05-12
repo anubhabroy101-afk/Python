@@ -1,3 +1,4 @@
+#WAP in Python to find the roots of a quadratic equation ax^2 + bx + c = 0
 import math
 
 # Taking coefficients as input
@@ -17,8 +18,7 @@ if d > 0:
     root2 = (-b - math.sqrt(d)) / (2 * a)
 
     print("Two distinct real roots")
-    print("Root 1 =", root1)
-    print("Root 2 =", root2)
+    print("Roots are:", root1, root2)
 
 elif d == 0:
     # Equal roots
