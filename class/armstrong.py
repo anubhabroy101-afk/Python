@@ -1,4 +1,3 @@
-#WAP in Python to check whether a number is an Armstrong number or not
 n=int(input("Enter a number: ")) #Eg 153, 370, 371, 407 are armstrong numbers
 sum=0
 arm=n
