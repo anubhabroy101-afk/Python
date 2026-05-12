@@ -1,3 +1,4 @@
+#WAP to check if a number is an Armstrong number
 n=int(input("Enter a number: ")) #Eg 153, 370, 371, 407 are armstrong numbers
 sum=0
 arm=n
