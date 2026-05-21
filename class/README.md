@@ -30,13 +30,13 @@ A collection of Python programming solutions for class assignments covering fund
 - [pattern_1.py](pattern_1.py)
 - [pattern_2.py](pattern_2.py)
 - [prime.py](prime.py)
-- 🟢 [prime_in_digit.py](prime_in_digit.py)
-- 🟢 [prime_in_range.py](prime_in_range.py)
-- 🟢 [quadratic1.py](quadratic1.py)
-- 🟢 [quadratic2.py](quadratic2.py)
-- 🟢 [sum.py](sum.py)
-- 🟢 [sum_in_digit.py](sum_in_digit.py)
-- 🟢 [summation_N.py](summation_N.py)
+- [prime_in_digit.py](prime_in_digit.py) 🟢
+- [prime_in_range.py](prime_in_range.py) 🟢
+- [quadratic1.py](quadratic1.py) 🟢
+- [quadratic2.py](quadratic2.py) 🟢
+- [sum.py](sum.py) 🟢
+- [sum_in_digit.py](sum_in_digit.py) 🟢
+- [summation_N.py](summation_N.py) 🟢
 - [swap.py](swap.py)
 
 ---
