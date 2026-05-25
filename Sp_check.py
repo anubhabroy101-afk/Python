@@ -1,4 +1,4 @@
-#WAP in python to create a list of Krishna murti and armstrong nos from a given range
+#WAP in python to create a list of Krishna murti and armstrong numbers from a given range
 def kr(a):
     s,kr=0,a
     while a>0:
