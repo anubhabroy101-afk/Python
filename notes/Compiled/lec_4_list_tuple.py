@@ -77,5 +77,36 @@ def block5():#WAP in Python to print all +ve, -ve and 0 in a list
         if i == 0:
             print(i, end=" ")
 
+def block6():#WAP i python to find the minimum and maximum element in a list
+    n = int(input("#6:- \nEnter the number of elements: "))
+    a = []
+    for i in range(n):
+        element = int(input(f"Enter element {i+1}: "))
+        a.append(element)
+    print("The list is:", a)
+    minimum = min(a)
+    maximum = max(a)
+    print("Minimum element in the list is:", minimum)
+    print("Maximum element in the list is:", maximum)
+
+def block7():#WAP i python to find the minimum and maximum element in a list (Alternative method)
+    n = int(input("#7:- \nEnter the number of elements: "))
+    a = []
+    for i in range(n):
+        element = int(input(f"Enter element {i+1}: "))
+        a.append(element)
+    print("The list is:", a)
+    minimum = a[0] #This is the first element of the list (assume it is the minimum)
+    maximum = a[0] #This is the first element of the list (assume it is the maximum)
+    for i in a:
+        if i < minimum:
+            minimum = i
+        if i > maximum:
+            maximum = i
+    print("Minimum element in the list is:", minimum)
+    print("Maximum element in the list is:", maximum)
+
+#def block8():#WAP i python to 
+
 if __name__ == "__main__":
     block4()
