@@ -17,6 +17,12 @@ A collection of Python programming solutions for class assignments covering fund
 
 ---
 
+## 📋 Staged Files
+
+- [swap.py](swap.py)
+
+---
+
 ## 📝 Assignment Files
 
 - [area_triangle.py](area_triangle.py)
