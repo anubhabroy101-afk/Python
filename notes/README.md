@@ -69,14 +69,14 @@ Code is poetry.
 - [Pattern_5_Numbers_Reverse.py](Pattern_5_Numbers_Reverse.py)
 - [Pattern_6_Pyramid.py](Pattern_6_Pyramid.py)
 - [Pattern_7_Diamond.py](Pattern_7_Diamond.py)
-- [Pattern_8_Right_Triangle.py](Pattern_8_Right_Triangle.py)
-- [Prime_Numbers_Range.py](Prime_Numbers_Range.py)
-- [Series_Powers.py](Series_Powers.py)
-- [Signal_Post.py](Signal_Post.py)
-- [Simple_Interest.py](Simple_Interest.py)
-- [Square_Area_Perimeter.py](Square_Area_Perimeter.py)
-- [Sum_Range.py](Sum_Range.py)
-- [Table.py](Table.py)
+- [Pattern_8_Right_Triangle.py](Pattern_8_Right_Triangle.py) 🟢
+- [Prime_Numbers_Range.py](Prime_Numbers_Range.py) 🟢
+- [Series_Powers.py](Series_Powers.py) 🟢
+- [Signal_Post.py](Signal_Post.py) 🟢
+- [Simple_Interest.py](Simple_Interest.py) 🟢
+- [Square_Area_Perimeter.py](Square_Area_Perimeter.py) 🟢
+- [Sum_Range.py](Sum_Range.py) 🟢
+- [Table.py](Table.py) 🟢
 
 ---
 
