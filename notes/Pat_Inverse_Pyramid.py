@@ -1,4 +1,4 @@
-#WAP in Python to to print inverse triangle pattern.
+#WAP in Python to to print inverse pyramid pattern.
 
 n = int(input("Enter the number of rows: "))
 for i in range(n):
