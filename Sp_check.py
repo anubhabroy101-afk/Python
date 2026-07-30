@@ -8,10 +8,12 @@ def kr(a):
             f*=i    
         s+=f
         a//=10
-    if kr==s:
-        return True
-    else:
-        return False
+    #if kr==s:
+    #    return True
+    #else:
+    #    return False
+    return kr == s
+
 
 def ar(a):
     s,ar=0,a
@@ -19,10 +21,7 @@ def ar(a):
         rem=a%10
         s+=rem**3
         a//=10
-    if s==ar:
-        return True
-    else:
-        return False
+    return ar == s    
     
 a=int(input("Enter the lower limit: "))
 b=int(input("Enter the upper limit: "))

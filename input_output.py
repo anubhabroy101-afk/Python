@@ -1,4 +1,5 @@
 import math
+
 # input
 name = input("Enter your name: ")  # this is string input (Default)
 age = int(input("Enter your age: "))  # this is integer input
